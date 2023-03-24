@@ -1,0 +1,21 @@
+def who_won(board):
+    white = 0
+    black =0
+
+    for row in board:
+        for square in row:
+            if square == 1:
+                white +=1
+            elif square == 2:
+                black +=1
+    if white > black:
+        print(f"White wins with {white} points")
+    elif black > white:
+        print(f"Black wins with {black} points")
+    else:
+        print("No winner")
+
+if __name__ == "__main__":
+    test_cases = (([[1,2,1],[0,0,1],[2,1,0]]), ([[1,2,2,2],[0,0,0,1],[0,0,2,1]]), ([[1,2,2,2],[2,1,1,1],[0,2,1,0]]))
+    for test in test_cases:
+        who_won(test)
