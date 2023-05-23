@@ -18,3 +18,8 @@ start = int(input())
 end = int(input())
 
 print(list(primeGenerator(start,end)))
+
+##Example output
+#10
+#22
+#[11, 13, 17, 19]
