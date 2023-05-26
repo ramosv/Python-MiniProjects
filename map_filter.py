@@ -1,4 +1,4 @@
-## Map filter and reduce funtions are high order functions that operate on a list
+## Map and filter funtions are high order functions that operate on a list
 
 ## Example of Map
 
