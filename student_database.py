@@ -79,4 +79,30 @@ def summary(students):
 
 
 if __name__ == "__main__":
-    
+    # students = {}
+    # add_student(students, "Peter")
+    # add_student(students, "Eliza")
+    # print_student(students, "Peter")
+    # print_student(students, "Eliza")
+    # print_student(students, "Jack")
+    # students = {}
+    # add_student(students, "Peter")
+    # add_course(students, "Peter", ("Introduction to Programming", 3))
+    # add_course(students, "Peter", ("Advanced Course in Programming", 2))
+    # add_course(students, "Peter", ("Data Structures and Algorithms", 0))
+    # add_course(students, "Peter", ("Introduction to Programming", 2))
+    # print_student(students, "Peter")
+    # students = {}
+    # add_student(students, "Peter")
+    # add_student(students, "Eliza")
+    # add_course(students, "Peter", ("Data Structures and Algorithms", 1))
+    # add_course(students, "Peter", ("Introduction to Programming", 1))
+    # add_course(students, "Peter", ("Advanced Course in Programming", 1))
+    # add_course(students, "Eliza", ("Introduction to Programming", 5))
+    # add_course(students, "Eliza", ("Introduction to Computer Science", 4))
+    # summary(students)
+    students = {}
+    add_student(students, "Peter")
+    add_course(students, "Peter", ("Introduction to Programming", 5))
+    add_course(students, "Peter", ("Data Structures and Algorithms", 3))
+    print_student(students, "Peter")
