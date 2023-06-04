@@ -40,4 +40,6 @@ def reading_file(file):
 
 if __name__ == "__main__":
     #reading_file("matrix.txt")
-    row_sums()
+    print(row_sums())
+    print(matrix_max())
+    print(matrix_sum())
