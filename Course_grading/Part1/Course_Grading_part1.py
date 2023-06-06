@@ -6,8 +6,6 @@
 student_info = input("Student file: ")
 excercise_data = input("Excercises Completed: ")
 
-
-
 names = {}
 with open(student_info) as new_file:
     for line in new_file:
