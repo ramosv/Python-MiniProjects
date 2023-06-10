@@ -41,10 +41,7 @@ def greatest_distance(stations):
                 stat2 = y
                 greatest = distance(stations, x ,y)
 
-
     return (stat1, stat2, greatest)
-
-
 
 if __name__ == "__main__":
     stations = get_station_data("stations1.csv")
