@@ -20,3 +20,24 @@ def words(size, start):
             rand_words.append(words[rand_indx])   
           
         return rand_words
+
+""" Model Solution.
+
+def words(n: int, beginning: str):
+    word_list = []
+    with open("words.txt") as file:
+        for word in file:
+            word = word.replace("\n","")
+            if word.startswith(beginning):
+                word_list.append(word)
+
+    if len(word_list) < n:
+        raise ValueError("Not enough suitable words can be found!")
+        
+    return random.sample(word_list, n)
+"""
+
+if __name__ == "__main__":
+    word_list = words(3, "ca")
+    for word in word_list:
+        print(word)
