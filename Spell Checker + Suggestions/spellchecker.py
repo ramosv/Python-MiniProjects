@@ -12,7 +12,7 @@ def spellchecker(word):
 
 
     for x in parts:
-        if x not in all_words:
+        if x.lower() not in all_words:
             text += f"*{x}* "
             suggest[x] = get_close_matches(x,all_words)      
         else:
